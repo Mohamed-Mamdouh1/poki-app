@@ -1,0 +1,120 @@
+
+import 'package:flutter/material.dart';
+class Character {
+  final String image, types, weakness, nextEvolution, title;
+  final double height, weight;
+  final int id;
+
+  Character({
+    Key key,
+    this.image,
+    this.types,
+    this.weakness,
+    this.nextEvolution,
+    this.title,
+    this.height,
+    this.weight,
+    this.id,
+  });
+}
+List<Character> characters = [
+  Character(
+      id: 1,
+      image: 'asset/Cutiefly.png',
+      title: 'CutieFly',
+      height: 0.3,
+      weight: 12.0,
+      types: 'Grass' ,
+      weakness: 'Fire',
+      nextEvolution: ' CutieFly '),
+  Character(
+      id:2,
+      image: 'asset/Eelektross.png',
+      title: 'Eelektross',
+      height: 0.3,
+      weight: 12.0,
+      types: 'Water',
+      weakness: 'Ground',
+      nextEvolution: 'Eelektross'),
+  Character(
+      id: 3,
+      image: 'asset/Flareon.png',
+      title: 'Flareon',
+      height: 0.3,
+      weight: 12.0,
+      types: 'Grass',
+      weakness: 'Water',
+      nextEvolution: 'Flareon'),
+  Character(
+      id: 4,
+      image: 'asset/Hippopotas.png',
+      title: 'Hippopotas',
+      height: 0.3,
+      weight: 12.0,
+      types: 'Water',
+      weakness: 'Fire',
+      nextEvolution: 'Hippopotas'),
+  Character(
+      id: 5,
+      image: 'asset/Hydreigon.png',
+      title: 'Hydreigon',
+      height: 0.3,
+      weight: 12.0,
+      types: 'Air',
+      weakness: 'Water',
+      nextEvolution: 'Hydreigon'),
+  Character(
+      id: 6,
+      image: 'asset/Perrserker.png',
+      title: 'Perrserker',
+      height: 0.3,
+      weight: 12.0,
+      types: 'Ground',
+      weakness: 'Water',
+      nextEvolution: 'Perrserker'),
+  Character(
+      id: 7,
+      image: 'asset/Ribombee.png',
+      title: 'Ribombee',
+      height: 0.3,
+      weight: 12.0,
+      types: 'air',
+      weakness: 'Water',
+      nextEvolution: 'Ribombee'),
+  Character(
+      id: 8,
+      image: 'asset/Tangrowth.png',
+      title: 'Tangrowth',
+      height: 0.3,
+      weight: 12.0,
+      types: 'Ground',
+      weakness: 'Water',
+      nextEvolution: 'Tangrowth'),
+  Character(
+      id: 9,
+      image: 'asset/Tyrunt.png',
+      title: 'Tyrunt',
+      height: 0.3,
+      weight: 12.0,
+      types: 'Ground',
+      weakness: 'Water',
+      nextEvolution: 'Tyrunt'),
+  Character(
+      id: 10,
+      image: 'asset/Whirlipede.png',
+      title: 'Whirlipede',
+      height: 0.3,
+      weight: 12.0,
+      types: 'Ground',
+      weakness: 'Water',
+      nextEvolution: 'Whirlipede'),
+  Character(
+      id: 11,
+      image: 'asset/Zoroark.png',
+      title: 'Zoroark',
+      height: 0.3,
+      weight: 12.0,
+      types: 'Ground',
+      weakness: 'Null',
+      nextEvolution: 'Zoroark'),
+];
